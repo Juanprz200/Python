@@ -1,0 +1,9 @@
+import pyautogui , webbrowser, time
+
+time.sleep(3)
+
+!time for repeat
+
+for i in range (100):
+    pyautogui.typewrite("whatever")
+    pyautogui.press("enter")
